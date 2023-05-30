@@ -1,0 +1,33 @@
+
+As a solutions architect working with Amazon Web Services (AWS), it's essential to be familiar with various AWS services that are commonly used in architecting solutions. Here are some important AWS services to know:
+
+1. Amazon EC2 (Elastic Compute Cloud): Provides virtual servers in the cloud, allowing you to configure and scale compute resources according to your requirements.
+
+2. Amazon S3 (Simple Storage Service): Offers scalable object storage for storing and retrieving data. It's commonly used for backups, static website hosting, and data archiving.
+
+3. Amazon RDS (Relational Database Service): A managed database service that supports multiple database engines like MySQL, PostgreSQL, Oracle, and SQL Server. It simplifies database setup, scaling, and administration.
+
+4. Amazon VPC (Virtual Private Cloud): Enables you to create a virtual network in the AWS cloud, allowing you to isolate and secure your resources. VPC provides control over IP ranges, subnets, routing, and network gateways.
+
+5. Amazon Route 53: A scalable and highly available domain name system (DNS) web service. It allows you to route traffic to various AWS resources, including load balancers, EC2 instances, and S3 buckets.
+
+6. Amazon CloudFront: A global content delivery network (CDN) that helps deliver content, such as web pages, videos, and images, with low latency and high data transfer speeds.
+
+7. Amazon SNS (Simple Notification Service): A messaging service that enables you to send push notifications, SMS messages, and emails to subscribed endpoints or applications.
+
+8. Route Tables: Route tables are used to control the traffic flow between subnets within a VPC. They define the rules for routing network traffic to different destinations, such as internet gateways, NAT gateways, virtual private gateways, or other instances within the VPC.
+
+9. Internet Gateway (IGW): An IGW is a horizontally scalable, redundant, and highly available AWS service that allows communication between instances within a VPC and the internet. It serves as the entry and exit point for internet traffic into and out of the VPC.
+
+10. Network Address Translation (NAT) Gateway: NAT gateways provide outbound internet access for instances within private subnets in a VPC. They enable instances with private IP addresses to communicate with the internet while preserving the security of the private subnet.
+
+11. VPC Peering: VPC peering allows you to connect multiple VPCs together using private IP addresses, enabling direct communication between them. It is useful for scenarios where you need to share resources or enable inter-VPC communication without going through the public internet.
+
+12. Amazon CloudWatch: A monitoring and observability service that provides insights into resource utilization, application performance, and operational health. It helps you monitor logs, set alarms, and gain visibility into your AWS resources.
+
+13. AWS Identity and Access Management (IAM): A service that enables you to manage user identities, roles, and permissions within AWS. IAM ensures secure access control and helps maintain the principle of least privilege.
+
+14. AMI: AMI (Amazon Machine Image) is a pre-configured template that contains an operating system, software, and data, serving as a blueprint for launching instances in AWS. 
+    It simplifies the process of provisioning new instances, ensuring consistency and efficiency across deployments.
+ 
+15. Amazon DynamoDB: Fully managed NoSQL database service by AWS, providing seamless scalability, high availability, and low-latency performance for applications.
